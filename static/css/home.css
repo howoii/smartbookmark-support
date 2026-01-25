@@ -102,6 +102,32 @@ body {
     color: white;
 }
 
+/* Language Switch Styles */
+.lang-switch {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.lang-switch a {
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+    gap: 5px;
+    padding: 6px 8px;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    transition: color 0.3s ease;
+}
+
+.lang-switch a:hover {
+    color: var(--primary-color);
+}
+
+.lang-switch a i {
+    font-size: 0.9rem;
+}
+
 /* Main Content Styles */
 main {
     margin-top: var(--header-height);
